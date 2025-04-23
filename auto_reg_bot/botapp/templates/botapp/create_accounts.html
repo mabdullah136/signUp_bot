@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create Accounts</title>
+  </head>
+  <body>
+    <h1>Create Accounts with Bot</h1>
+    <form method="POST">
+      {% csrf_token %} {{ form.as_p }}
+      <button type="submit">Run Bot</button>
+    </form>
+  </body>
+</html>
