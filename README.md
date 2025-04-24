@@ -15,7 +15,7 @@ Signup limit (number of accounts to create).
 Can be modified to support other websites with adjustments to the form-filling logic.
 
 ## Project Setup
-- git clone 
+- git clone https://github.com/mabdullah136/signUp_bot.git
 - python3 -m venv env
 - source env/bin/activate  # On Windows: env\Scripts\activate
 - pip install -r requirements.txt
