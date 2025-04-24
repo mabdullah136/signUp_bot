@@ -11,16 +11,7 @@ Website signup URL.
 Test username (e.g., test01@gmail.com).
 Signup limit (number of accounts to create).
 
-
 Can be modified to support other websites with adjustments to the form-filling logic.
-
-## Project Setup
-- git clone https://github.com/mabdullah136/signUp_bot.git
-- python3 -m venv env
-- source env/bin/activate  # On Windows: env\Scripts\activate
-- pip install -r requirements.txt
-- python3 manage.py migrate
-- python3 manage.py runserver
 
 ## Usage
 
@@ -44,5 +35,14 @@ Work in progress: Additional features, error handling, and generalization are st
 Ensure these dependencies are installed (typically via requirements.txt).
 Contributing
 This project is a work in progress. Contributions, suggestions, and improvements are welcome! Feel free to open issues or submit pull requests.
+
+## Project Setup
+```bash
+git clone https://github.com/mabdullah136/signUp_bot.git
+python3 -m venv env
+source env/bin/activate  # On Windows: env\Scripts\activate
+pip install -r requirements.txt
+python3 manage.py migrate
+python3 manage.py runserver
 
 
